@@ -1,7 +1,6 @@
 {
   "prettier.jsxBracketSameLine": true,
   "workbench.colorTheme": "Darcula Theme 2.0",
-  "sync.gist": "2e42ed540bc31a1aacaae5fe5fcc2348",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -67,15 +66,7 @@
     "xml"
   ],
   "cSpell.language": "en,en-GB,en-US",
-  "cSpell.userWords": [
-    "brainer",
-    "browserslist",
-    "shanbhogue",
-    "siddharth",
-    "udemy",
-    "webextension"
-  ],
-  "projectManager.git.baseFolders": ["/Users/ss031672/Documents/GitHub"],
+  "cSpell.userWords": ["brainer", "browserslist", "udemy", "webextension"],
   "diffEditor.ignoreTrimWhitespace": false,
   "eslint.format.enable": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -84,4 +75,3 @@
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifier": "non-relative"
 }
-
