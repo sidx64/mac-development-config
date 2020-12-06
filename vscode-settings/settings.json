@@ -1,0 +1,87 @@
+{
+  "prettier.jsxBracketSameLine": true,
+  "workbench.colorTheme": "Darcula Theme 2.0",
+  "sync.gist": "2e42ed540bc31a1aacaae5fe5fcc2348",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.enableSmartCommit": true,
+  "editor.fontFamily": "Fira Code, Source Code Pro for Powerline, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.host": "localhost:9000",
+  "sonarlint.disableTelemetry": true,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.formatOnPaste": true,
+  "prettier.ignorePath": ".prettierignore ",
+  "markdownlint.config": {
+    "MD013": false,
+    "MD002": false,
+    "MD033": false,
+    "MD025": false
+  },
+  "window.zoomLevel": 0,
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    }
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.showHiddenFiles": true,
+  "cSpell.enableFiletypes": [
+    "dockerfile",
+    "dotenv",
+    "ignore",
+    "jsx-tags",
+    "pip-requirements",
+    "powershell",
+    "shellscript",
+    "todo",
+    "xml"
+  ],
+  "cSpell.language": "en,en-GB,en-US",
+  "cSpell.userWords": [
+    "brainer",
+    "browserslist",
+    "shanbhogue",
+    "siddharth",
+    "udemy",
+    "webextension"
+  ],
+  "projectManager.git.baseFolders": ["/Users/ss031672/Documents/GitHub"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
+
