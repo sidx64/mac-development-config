@@ -42,6 +42,10 @@ brew 'tree'
 # NCDU - ncurses based Disk usage tool
 brew 'ncdu'
 
+# Zlib and other essential packages
+brew 'zlib'
+brew 'bzip2'
+
 # NVM - A version manager for NodeJS
 brew 'nvm'
 
@@ -124,6 +128,9 @@ cask 'tiddly'
 
 # python
 brew 'python'
+
+# Insomnia - API tool
+cask 'insomnia'
 
 # JQ - Json Query
 brew  'jq'
