@@ -45,6 +45,10 @@ brew 'ncdu'
 # Zlib and other essential packages
 brew 'zlib'
 brew 'bzip2'
+brew 'openssl' 
+brew 'readline'
+brew 'sqlite3'
+brew 'xz'
 
 # NVM - A version manager for NodeJS
 brew 'nvm'
@@ -125,9 +129,6 @@ brew 'youtube-dl'
 
 # TiddlyWiki
 cask 'tiddly'
-
-# python
-brew 'python'
 
 # virtual environment
 brew 'pyenv' 

@@ -33,7 +33,14 @@ My configuration files for setting up the tastiest development setup on a mac - 
 
         cp zsh-config/zshrc ~/.zshrc
 
-7.  VS Code Extension installations - [DO NOT RUN if using VSCode Settings Sync]
+7.  Install the versions of python you want
+
+        pyenv install 3.8.6
+        pyenv install 3.9.1
+
+8.  Restart the shell and make sure no errors or warnings pop up.
+
+9.  VS Code Extension installations - [DO NOT RUN if using VSCode Settings Sync]
     Run the following commands:
 
         code --install-extension ritwickdey.liveserver
