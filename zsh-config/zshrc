@@ -106,3 +106,11 @@ alias pip="/usr/local/bin/pip3"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+# Locale settings
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LDFLAGS="-L/usr/local/opt/bzip2/lib"
