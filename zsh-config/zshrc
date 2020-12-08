@@ -98,30 +98,25 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
-#alias python="/usr/local/bin/python3"
-#alias pip="/usr/local/bin/pip3"
+alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 
-# enable syntax highlighting and auto-suggestions
+# Enable zsh syntax highlighting and auto-suggestions
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# NVM
+# NVM - Node Version Manager
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-# locale and other exports
+# Essential exports
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export PATH="$HOME/.pyenv/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
 export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/bzip2/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include"
-
-eval "$(pyenv init -)"
+export PATH="/usr/local/sbin:$PATH"
 
 # pyenv activation
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-
-
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
