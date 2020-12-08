@@ -129,6 +129,11 @@ cask 'tiddly'
 # python
 brew 'python'
 
+# virtual environment
+brew 'pyenv' 
+brew 'pyenv-virtualenv'
+brew 'pyenv-virtualenvwrapper'
+
 # Insomnia - API tool
 cask 'insomnia'
 
