@@ -69,7 +69,7 @@ brew 'tldr'
 ## TOOLS FOR BETTER MAC EXPERIENCE
 
 # Google Drive 
-cask 'google-backup-and-sync'
+# cask 'google-backup-and-sync'
 
 # Google Chrome 
 cask 'google-chrome'
