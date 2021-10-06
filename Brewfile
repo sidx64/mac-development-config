@@ -13,7 +13,6 @@ cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
 cask "qlstephen"
-cask "cert-quicklook"
 cask "quicklook-json"
 
 ## SOURCE CODE MANAGEMENT
